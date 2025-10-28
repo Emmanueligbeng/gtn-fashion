@@ -22,8 +22,8 @@ const Contact = () => {
           </div>
 
           <div className="contact-socials">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="https://www.facebook.com/share/1Bntu9fpY2/"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/simply_gtn_ventures?"><FaInstagram /></a>
             <a href="#"><FaTwitter /></a>
             <a href="#"><FaTiktok /></a>
           </div>

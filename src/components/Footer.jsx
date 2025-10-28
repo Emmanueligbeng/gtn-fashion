@@ -1,6 +1,6 @@
 import "./Footer.css";
 import logo from "../assets/images/logo.png";
-import { FaFacebookF, FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaTiktok, FaEnvelope, FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -11,10 +11,11 @@ const Footer = () => {
         <a href="/"><img src={logo} alt="GTN Logo" className="nav-logo logo" /></a>
           <p>Your one-stop fashion brand for classy and timeless wear.</p>
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaTiktok /></a>
+            <a href="https://www.facebook.com/share/1Bntu9fpY2/"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/simply_gtn_ventures?utm_source=qr&igsh=MmRxbzJtZHF2MDE0"><FaInstagram /></a>
+            <a href="mailto:gtnventures44real@gmail.com"><FaEnvelope /></a>
+            <a href="https://wa.me/2349012345678" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+            <a href="tel:+2349012345678"><FaPhoneAlt /></a>
           </div>
         </div>
 

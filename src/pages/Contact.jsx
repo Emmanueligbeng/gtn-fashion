@@ -20,24 +20,26 @@ function Contact() {
 
           <ul>
             <li>
-              <strong>Address:</strong> 12 Luxury Avenue, Lagos, Nigeria
+              <strong>Address:</strong> Oyo State, Nigeria & Skelleftea, Sweden
             </li>
             <li>
-              <strong>Email:</strong> support@gtnfashion.com
+              <strong>Email:</strong> gtnventures44real@gmail.com
             </li>
             <li>
-              <strong>Phone:</strong> +234 810 000 0000
+              <strong>Phone:</strong> +467 644 829 43
             </li>
           </ul>
 
           <div className="socials">
             <p>Follow Us:</p>
             <div className="icons">
-              <i className="fab fa-facebook-f"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-tiktok"></i>
+              <a href="https://www.facebook.com/share/1Bntu9fpY2/"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/simply_gtn_ventures?"><i className="fab fa-instagram"></i></a>
+              <a href="tel:+46764482943"><i className="fas fa-phone"></i></a>
+              <a href="https://wa.me/2349012345678" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+              <a href="mailto:gtnventures44real@gmail.com"><i className="fas fa-envelope"></i></a>
             </div>
+
           </div>
         </div>
 
