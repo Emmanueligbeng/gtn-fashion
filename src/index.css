@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-origin: padding-box;
+}
+body{
+  background-color: #EBEBEB;
+  font-family: "Montserrat", sans-serif;
+}

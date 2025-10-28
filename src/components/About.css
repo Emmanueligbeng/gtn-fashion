@@ -1,0 +1,115 @@
+.about-page {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* HERO */
+  .about-hero {
+    text-align: center;
+    padding:30px 20px;
+  }
+  
+  .about-hero h1 {
+    font-size: 48px;
+    color: gold;
+    margin-bottom: 5px;
+  }
+  
+  .about-hero p {
+    font-size: 16px;
+    color: #ccc;
+    letter-spacing: 1px;
+  }
+  
+  /* WHO WE ARE */
+  .about-row {
+    max-width: 1100px;
+    padding: 80px 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border: 2px solid gold;
+  }
+  
+  .about-text h2 {
+    color: gold;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  .about-text p {
+    color: #ddd;
+    line-height: 1.7;
+    margin-bottom: 14px;
+  }
+  
+  /* VALUES (3 columns) */
+  .about-values {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .value-box {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .value-box h3 {
+    color: gold;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .value-box p {
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  /* CTA */
+  .about-cta {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .about-cta p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-cta button {
+    background: gold;
+    border: none;
+    padding: 12px 28px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .about-cta button:hover {
+    background: #d4af37;
+  }
+  
+  /* MOBILE RESPONSIVE */
+  @media (max-width: 768px) {
+    .about-row {
+      grid-template-columns: 1fr;
+    }
+  
+    .about-values {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

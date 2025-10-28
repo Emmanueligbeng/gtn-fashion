@@ -1,0 +1,139 @@
+   .footer {
+    background: #000;
+    color: #fff;
+    padding: 60px 20px 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  
+  .footer-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: gold;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .footer-col h4::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #447794;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+  }
+  
+  .footer-col ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-col ul li a:hover {
+    color: aliceblue;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: aliceblue;
+  }
+  
+  .newsletter {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .newsletter input {
+    flex: 1;
+    border-radius: 5px;
+
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  .newsletter button {
+    background: #447794;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .newsletter button:hover {
+    background: aliceblue;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+  }
+  
+  /* ✅ Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .footer-col h4::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .newsletter {
+      flex-direction: column;
+    }
+  }
+  

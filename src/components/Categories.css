@@ -1,0 +1,47 @@
+
+
+.categories .cats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 1200px;
+    margin: 18px auto 0;
+  }
+  
+  .cat-card {
+    position: relative;
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    height: 240px;
+    transition: transform .25s ease;
+    border: 1px solid rgba(255,255,255,0.04);
+  }
+  
+  .cat-card:hover { transform: translateY(-6px); }
+  
+  .cat-img {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6);
+  }
+  
+  .cat-label {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .categories .cats-grid { grid-template-columns: 1fr; }
+    .cat-card { height: 160px; }
+  }
+  

@@ -1,0 +1,34 @@
+/* Home.css - Dark + Yellow Gold theme for Home page */
+.home-page {
+    background: #EAEFFE;
+    color: #2d2d2d;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* shared section container */
+  .section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 20px;
+  }
+  
+  /* small helper */
+  .center {
+    text-align: center;
+  }
+  
+  /* spacing helpers for inner components */
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+  }
+  
+  /* responsive */
+  @media (max-width: 900px) {
+    .split {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.featured {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  
+  .featured-grid {
+    max-width: 1200px;
+    margin: 18px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  
+  /* responsive */
+  @media (max-width: 1024px) {
+    .featured-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .featured-grid { grid-template-columns: 1fr; }
+  }
+  

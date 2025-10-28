@@ -1,0 +1,11 @@
+.about-preview .about-cta {
+    display:inline-block;
+    margin-top:14px;
+    padding:10px 16px;
+    background: #447794;;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:600;
+  }
+  

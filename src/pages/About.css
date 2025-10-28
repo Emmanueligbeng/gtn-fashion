@@ -1,0 +1,125 @@
+.about-page {
+    background: #0a0a0a;
+    color: #ebebeb;
+    padding-bottom: 50px;
+  }
+  
+  /* HERO */
+  .about-hero {
+    text-align: center;
+    padding: 80px 10%;
+    background: #111;
+  }
+  .about-hero h1 {
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .about-hero p {
+    font-size: 18px;
+    margin-top: 8px;
+    color: #cfcfcf;
+  }
+  
+  /* STORY */
+  .about-story {
+    padding: 60px 10%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  .about-story h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .about-story p {
+    line-height: 1.7;
+    color: #cfcfcf;
+    margin-bottom: 15px;
+  }
+  
+  /* VALUES */
+  .about-values {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding:0  10%;
+    text-align: center;
+  }
+  .value-box {
+    border: 1px solid #447794;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    transition: 0.3s;
+  }
+  .value-box:hover {
+    background: #111;
+    transform: translateY(-5px);
+  }
+  .value-box h3 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* FAQ */
+  .faq-section {
+    padding: 60px 10%;
+    max-width: 900px;
+    margin: auto;
+  }
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+  }
+  .faq-item {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+  }
+  .faq-question {
+    font-weight: bold;
+  }
+  .faq-answer {
+    margin-top: 10px;
+    color: #cfcfcf;
+  }
+  .faq-item.active .faq-question {
+    color: #447794;
+  }
+  
+  /* CTA */
+  .about-cta {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .about-cta h2 {
+    color: white;
+  }
+  .about-cta p {
+    margin: 10px 0 20px;
+  }
+  .about-cta button {
+    background: #447794;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .about-cta button:hover {
+    background: #528daf;
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .about-values {
+      flex-direction: column;
+    }
+    .value-box {
+      width: 100%;
+    }
+  }
+  
