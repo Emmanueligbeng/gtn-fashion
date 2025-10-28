@@ -14,8 +14,8 @@ const Footer = () => {
             <a href="https://www.facebook.com/share/1Bntu9fpY2/"><FaFacebookF /></a>
             <a href="https://www.instagram.com/simply_gtn_ventures?utm_source=qr&igsh=MmRxbzJtZHF2MDE0"><FaInstagram /></a>
             <a href="mailto:gtnventures44real@gmail.com"><FaEnvelope /></a>
-            <a href="https://wa.me/2349012345678" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
-            <a href="tel:+2349012345678"><FaPhoneAlt /></a>
+            <a href="https://wa.me/46764482943" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+            <a href="tel:+46764482943"><FaPhoneAlt /></a>
           </div>
         </div>
 

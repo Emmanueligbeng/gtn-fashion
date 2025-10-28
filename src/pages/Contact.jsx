@@ -36,7 +36,7 @@ function Contact() {
               <a href="https://www.facebook.com/share/1Bntu9fpY2/"><i className="fab fa-facebook-f"></i></a>
               <a href="https://www.instagram.com/simply_gtn_ventures?"><i className="fab fa-instagram"></i></a>
               <a href="tel:+46764482943"><i className="fas fa-phone"></i></a>
-              <a href="https://wa.me/2349012345678" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+              <a href="https://wa.me/46764482943" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
               <a href="mailto:gtnventures44real@gmail.com"><i className="fas fa-envelope"></i></a>
             </div>
 

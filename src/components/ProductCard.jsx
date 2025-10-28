@@ -16,12 +16,12 @@ export default function ProductCard({ product }) {
         <h3 className="pcard-title">{product.name || "Untitled"}</h3>
         <div className="pcard-meta">
           <div className="pcard-price">{product.price ? `₦${product.price}` : "—"}</div>
-          <button
+          <a href="https://wa.me/46764482943" target="_blank" rel="noopener noreferrer"><button
             className="pcard-add"
-            onClick={() => window.alert(`${product.name || "Product"} added to cart (demo)`)}
+            // onClick={() => window.alert(`${product.name || "Product"} added to cart (demo)`)}
           >
             Purchase
-          </button>
+          </button></a>
         </div>
       </div>
     </article>
