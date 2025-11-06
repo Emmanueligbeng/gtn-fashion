@@ -41,9 +41,32 @@ const products = [
   },
   {
     id:6,
-    name: "3 in 1 Adire Top & Pants",
-    price: "400",
-    image: "/images/product7.jpg",
+    name: "Abaya Adire Gown ",
+    price: "500",
+    image: "/images/product242.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:7,
+    name: "SHick Adire Gown ",
+    price: "250",
+    image: "/images/product241.jpg",
+    category: "women and children"
+
+  },
+  {
+    id: 8,
+    name: "Loose Crop Top & Palezo Trousers Combo",
+    price: "500k",
+    video: "/videos/clip.mp4",
+    category: "men,women and children"
+  },
+  {
+    id:9,
+    name: "Zip Down Adire Gown",
+    price: "250",
+    image: "/images/product243.jpg",
     category: "women and children"
 
   },
