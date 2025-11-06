@@ -1,31 +1,51 @@
-// {
-//     id: "101",
-//     name: "Royal Black Coat",
-//     price: 45000,
-//     img: "/assets/products/royal-coat.jpg", // or remote URL
-//     desc: "Tailored wool coat",
-//     category: "Men"
-//   }
-  
-
 const products = [
   {
     id: 1,
-    name: "Luxury Black Hoodie",
-    price: "$85",
-    image: "/images/hoodie-black.jpg",
+    name: "Patched Adire Gown",
+    price: "170",
+    image: "/images/product6.jpg",
+    category: "women and children"
+
   },
   {
     id: 2,
-    name: "Classic White Tee",
-    price: "$45",
-    image: "/images/white-tee.jpg",
+    name: "3 in 1 Adire Top & Pants",
+    price: "400",
+    image: "/images/product7.jpg",
+    category: "women and children"
+
   },
   {
     id: 3,
-    name: "Premium Gold Jacket",
-    price: "$150",
-    image: "/images/gold-jacket.jpg",
+    name: "Adire Wrap Blouse & Pants Set",
+    price: "380",
+    image: "/images/product2.jpg",
+    category: "women"
+
+  },
+  {
+    id: 4,
+    name: "Aso Oke Flex Jacket With Belt",
+    price: "200",
+    image: "/images/product3.jpg",
+    category: "women and children"
+
+  },
+  {
+    id: 5,
+    name: "Adire Kimono Jacket",
+    price: "250",
+    image: "/images/product5.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:6,
+    name: "3 in 1 Adire Top & Pants",
+    price: "400",
+    image: "/images/product7.jpg",
+    category: "women and children"
+
   },
 ];
 

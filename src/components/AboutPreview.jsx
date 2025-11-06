@@ -8,7 +8,7 @@ export default function AboutPreview() {
       <div className="split">
         <div>
           <img
-            src="https://images.unsplash.com/photo-1521336575822-6da63fb45455?q=80&w=1000"
+            src="/about.jpg"
             alt="Studio"
             style={{ width: "100%", borderRadius: "5px" }}
 

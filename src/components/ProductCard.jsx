@@ -9,13 +9,16 @@ export default function ProductCard({ product }) {
   return (
     <article className="pcard">
       <div className="pcard-image">
-        <img src={product.img || placeholder} alt={product.name || "Product image"} />
+        <img src={product.image || placeholder} alt={product.name || "Product image"} />
       </div>
 
       <div className="pcard-body">
         <h3 className="pcard-title">{product.name || "Untitled"}</h3>
         <div className="pcard-meta">
-          <div className="pcard-price">{product.price ? `₦${product.price}` : "—"}</div>
+          
+          <div className="pcard-price">
+  {product?.price !== undefined ? `SEK ${product.price}` : "—"}
+</div>
           <a href="https://wa.me/46764482943" target="_blank" rel="noopener noreferrer"><button
             className="pcard-add"
             // onClick={() => window.alert(`${product.name || "Product"} added to cart (demo)`)}

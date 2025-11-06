@@ -34,7 +34,9 @@ const Hero = () => {
 
       <div className="hero-overlay">
         <h1>GTN COURTURE & FASHION</h1>
-        <p>"African Ready To Wear Plug."</p>
+        {/* <h1>SHOP ADIRE</h1> */}
+
+        <p>"Every Piece Is One of A Kind, Just Like You"</p>
         <a href="/shop"><button className="hero-btn">Shop Now</button></a>
       </div>
     </section>

@@ -12,7 +12,7 @@ export default function Categories() {
   return (
     <section className="categories section">
       <div className="center">
-        <h2 style={{color:"#2d2d2d", marginBottom:8}}>EXOLORE OUR STORE</h2>
+        <h2 style={{color:"#2d2d2d", marginBottom:8}}>EXPLORE OUR STORE</h2>
         <p style={{color:"grey", marginBottom:20}}>Shop By Category, Curated For You.</p>
       </div>
 

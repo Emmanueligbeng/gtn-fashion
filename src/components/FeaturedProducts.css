@@ -11,6 +11,27 @@
     gap: 18px;
   }
   
+
+  .view-more-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .view-more-btn {
+    background: #447794;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .view-more-btn:hover {
+    background: #60aad4;
+  }
+
   /* responsive */
   @media (max-width: 1024px) {
     .featured-grid { grid-template-columns: repeat(2, 1fr); }
