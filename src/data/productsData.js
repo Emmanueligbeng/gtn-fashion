@@ -49,7 +49,7 @@ const products = [
   },
   {
     id:7,
-    name: "SHick Adire Gown ",
+    name: "Shick Adire Gown ",
     price: "250",
     image: "/images/product241.jpg",
     category: "women and children"
@@ -67,6 +67,54 @@ const products = [
     name: "Zip Down Adire Gown",
     price: "250",
     image: "/images/product243.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:10,
+    name: "Ladies Ankara Outfit",
+    price: "250",
+    image: "/images/new1.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:11,
+    name: "Adire Fringe Gown",
+    price: "250",
+    image: "/images/new5.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:12,
+    name: "Batik Wrap Top",
+    price: "150",
+    image: "/images/new8.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:13,
+    name: "Trimmed Adire Pants",
+    price: "250",
+    image: "/images/new10.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:14,
+    name: "Adire Plus Size Pants",
+    price: "250",
+    image: "/images/new13.jpg",
+    category: "women and children"
+
+  },
+  {
+    id:15,
+    name: "Aura Crop Top And Short Set",
+    price: "350",
+    image: "/images/new14.jpg",
     category: "women and children"
 
   },
