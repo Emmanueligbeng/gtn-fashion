@@ -118,6 +118,76 @@ const products = [
     category: "women and children"
 
   },
+  {
+    id:16,
+    name: "Unisex Adire Shirt (Blue)",
+    price: "150SEK",
+    image: "/images/newproducts1.jpeg",
+    category: "men and women"
+
+  },
+    {
+    id:17,
+    name: "Unisex Adire Shirt (Black - Medium)",
+    price: "150SEK",
+    video: "/videos/newproducts8.mp4",
+    category: "men and women"
+
+  },
+
+   {
+    id:18,
+    name: "Unisex Adire Shirt (Army Green)",
+    price: "150SEK",
+    image: "/images/newproducts2.jpeg",
+    category: "men and women"
+
+  },
+
+    {
+    id:19,
+    name: "Unisex Adire Shirt (Orange/Blue Mix - Large)",
+    price: "150SEK",
+    image: "/images/newproducts2.jpeg",
+    category: "men and women"
+
+  },
+
+  {
+    id:20,
+    name: "Unisex Adire Shirt (Teal Green)",
+    price: "150SEK",
+    image: "/images/newproducts4.jpeg",
+    category: "men and women"
+
+  },
+
+  {
+    id:21,
+    name: "Unisex Adire Shirt (Orange/Blue Mix)",
+    price: "150SEK",
+    image: "/images/newproducts7.jpeg",
+    category: "men and women"
+
+  },
+
+    {
+    id:22,
+    name: "Unisex Adire Shirt (Blue - Xtra Large)",
+    price: "150SEK",
+    image: "/images/newproducts6.jpeg",
+    category: "men and women"
+
+  },
+
+    {
+    id:23,
+    name: "Unisex Adire Shirt (Teal Green  - XX Large)",
+    price: "150SEK",
+    image: "/images/newproducts5.jpeg",
+    category: "men and women"
+
+  },
 ];
 
 export default products;
