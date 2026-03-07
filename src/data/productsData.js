@@ -148,7 +148,8 @@ const products = [
     id:19,
     name: "Unisex Adire Shirt (Orange/Blue Mix - Large)",
     price: "150SEK",
-    image: "/images/newproducts2.jpeg",
+    // image: "/images/newproducts2.jpeg",
+    video: "/videos/newproducts9.mp4",
     category: "men and women"
 
   },
