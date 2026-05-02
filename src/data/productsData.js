@@ -189,6 +189,41 @@ const products = [
     category: "men and women"
 
   },
+     {
+    id:24,
+    name: "Laced Adire skirt  (Gold lace; Onion lace - Available on request)",
+    price: "150SEK",
+    image: "/images/updated1.jpeg",
+    category: "women"
+
+  },
+
+   {
+    id:25,
+    name: "Kids kimono Adire Jacket (0-12 years)",
+    price: "100SEK",
+    image: "/images/updated6.jpeg",
+    category: "children"
+
+  },
+
+   {
+    id:26,
+    name: "2 Piece Adire Wear (Blue -  Available on request)",
+    price: "400SEK",
+    image: "/images/updated5.jpeg",
+    category: "women"
+
+  },
+
+  {
+    id:27,
+    name: "Kimono Adire Jacket (Blue -  Size: M - XL)",
+    price: "250SEK",
+    image: "/images/updated3.jpeg",
+    category: "women"
+
+  },
 ];
 
 export default products;
