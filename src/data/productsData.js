@@ -224,6 +224,31 @@ const products = [
     category: "women"
 
   },
+    {
+    id:28,
+    name: "Crop Top and Palezzo Trousers  (Blue -  Size: One)",
+    price: "500SEK",
+    image: "/images/neww3.jpeg",
+    category: "women"
+
+  },
+    {
+    id:29,
+    name: "Bubu Gown Top (Size: One)",
+    price: "300SEK",
+    image: "/images/neww1.jpeg",
+    category: "women"
+
+  },
+
+     {
+    id:30,
+    name: "Kimono Gown (Size: One)",
+    price: "300SEK",
+    image: "/images/neww2.jpeg",
+    category: "women"
+
+  },
 ];
 
 export default products;
