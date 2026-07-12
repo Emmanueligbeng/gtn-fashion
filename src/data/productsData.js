@@ -249,6 +249,42 @@ const products = [
     category: "women"
 
   },
+  
+  {
+    id:31,
+    name: "African Prints Earrings ",
+    price: "50SEK",
+    image: "/images/earring1.jpeg",
+    category: "women"
+
+  },
+
+   {
+    id:32,
+    name: "African Prints Earrings ",
+    price: "50SEK",
+    image: "/images/earring2.jpeg",
+    category: "women"
+
+  },
+
+   {
+    id:33,
+    name: "African Prints Earrings ",
+    price: "50SEK",
+    image: "/images/earring3.jpeg",
+    category: "women"
+
+  },
+
+   {
+    id:34,
+    name: "African Prints Earrings ",
+    price: "50SEK",
+    image: "/images/earring4.jpeg",
+    category: "women"
+
+  },
 ];
 
 export default products;
